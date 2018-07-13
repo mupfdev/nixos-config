@@ -47,6 +47,7 @@
   services.cron.enable                 = true;
   services.logrotate.enable            = true;
   services.rsyslogd.enable             = true;
+  services.thinkfan.enable             = true;
   services.logind.lidSwitch            = "ignore";
 
   # Enable the OpenSSH daemon.
