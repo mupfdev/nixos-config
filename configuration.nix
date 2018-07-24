@@ -45,7 +45,6 @@
 
   # List services that you want to enable:
   services.clamav.daemon.enable        = true;
-  services.clamav.updater.config       = true;
   services.clamav.updater.enable       = true;
   services.cron.enable                 = true;
   services.logrotate.enable            = true;
