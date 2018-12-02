@@ -175,10 +175,9 @@
   hardware.opengl.driSupport32Bit                      = true;
   services.xserver.displayManager.auto.enable          = true;
   services.xserver.displayManager.auto.user            = "micha";
-  services.xserver.desktopManager.default              = "Enlightenment";
-  services.xserver.desktopManager.enlightenment.enable = true;
+  services.xserver.desktopManager.plasma5.enable       = true;
 
-  virtualisation.libvirtd.enable = true;
+  virtualisation.libvirtd.enable                       = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   # users.extraUsers.guest = {
@@ -192,7 +191,7 @@
     home         = "/home/micha";
     createHome   = true;
     description  = "Michael Fitzmayer";
-    extraGroups  = [ "input" "libvirtd" "networkmanager" "video" "wheel" "wireshark" ];
+    extraGroups  = [ "input" "libvirtd" "networkmanager" "vboxusers" "video" "wheel" "wireshark" ];
     uid          = 1000;
   };
 
