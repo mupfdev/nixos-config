@@ -191,7 +191,7 @@
     home         = "/home/micha";
     createHome   = true;
     description  = "Michael Fitzmayer";
-    extraGroups  = [ "input" "libvirtd" "networkmanager" "vboxusers" "video" "wheel" "wireshark" ];
+    extraGroups  = [ "input" "libvirtd" "networkmanager" "power" "vboxusers" "video" "wheel" "wireshark" ];
     uid          = 1000;
   };
 
