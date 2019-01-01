@@ -173,7 +173,7 @@
 
   hardware.opengl.enable                               = true;
   hardware.opengl.driSupport32Bit                      = true;
-  services.xserver.displayManager.auto.enable          = true;
+  services.xserver.displayManager.auto.enable          = false;
   services.xserver.displayManager.auto.user            = "micha";
   services.xserver.desktopManager.plasma5.enable       = true;
 
